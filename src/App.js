@@ -1,5 +1,7 @@
 import React,{useState} from 'react'
 import TodoList from './TodoList';
+import './App.css';
+
 
 const App = () => {
   const [task,setTask] = useState("");
